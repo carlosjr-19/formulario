@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="formulario.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="formulario">
+        <h1><span>Formulario</span></h1>
+        
+        
+             
+        <form action="mailto:cmvh19jr@outlook.com" method="POST">
+            
+
+
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre (s)" maxlength="20" required/><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido (s)" maxlength="30" required/><br>
+            <input type="text" id="usuario" name="usuario" placeholder="Usuario" minlength="5" required/><br>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" minlength="8" required/><br>
+            <hr>
+            <p><span>SEXO</span></p><br> 
+            <p>Femenino</p><input type="radio" name="Genero"/>
+            <p>Masculino</p><input type="radio" name="Genero"/>
+            <p>Otro</p><input type="radio" name="Genero"/>
+            <hr>
+            <p> ELIGE TU COLOR</p><br>
+        <select name="color">
+            <option value="rojo">Rojo</option> <!-- <input type="checkbox" name="checkbox"/> -->
+            <option value="azul">Azul</option> <!-- <input type="checkbox" name="checkbox"/> -->
+            <option value="azul">Amarillo</option>
+            <option value="azul">Anaranjado</option>
+            <option value="azul">Morado</option>
+            <option value="azul">Verde</option>
+            <option value="azul">Negro</option>
+            <option value="azul">Blanco</option>
+        </select>
+            <hr>
+            <input name="email" placeholder="Correo" type="email" required/><br/>
+            <input name="telefono" placeholder="Numero de telefono" type="tel" required/><br/>
+            <textarea name="message" placeholder="Recomendaciones" required></textarea><br>
+            <button type="submit" value="ENVIAR" class="boton">ENVIAR</button>
+        </form>
+    </div>
+
+<!-- <form name="input" action="captura.jsp" method="get"> para enviar formulario-->
+
+</body> 
+</html> 
